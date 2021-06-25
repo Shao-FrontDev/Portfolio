@@ -12,7 +12,7 @@
               backgroundColor: active ? 'white' : 'black',
             }"
           >
-            <h1 class="font-poppins font-semibold">S</h1>
+            <h1 class="font-poppins font-semibold logo">S</h1>
           </n-avatar>
         </router-link>
         <div class="flex">
@@ -262,3 +262,9 @@
     },
   };
 </script>
+
+<style scoped>
+  .logo {
+    font-size: 40px;
+  }
+</style>
