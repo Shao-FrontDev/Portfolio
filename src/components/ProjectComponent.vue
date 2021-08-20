@@ -68,40 +68,67 @@
               </div>
             </div>
           </div>
-          <a :href="project.projectLink" target="__blank">
-            <svg
-              class="
-                mt-2
-                h-6
-                self-center
-                text-black
-                dark:text-white
-                cursor-pointer
-              "
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 24 24"
-            >
-              <g
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+          <div class="flex">
+            <a :href="project.projectGithub" target="__blank">
+              <svg
+                class="
+                  mt-2
+                  h-6
+                  self-center
+                  text-black
+                  dark:text-white
+                  cursor-pointer
+                  mx-2
+                "
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 24 24"
               >
                 <path
-                  d="M10 14a3.5 3.5 0 0 0 5 0l4-4a3.5 3.5 0 0 0-5-5l-.5.5"
+                  d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 ></path>
-                <path
-                  d="M14 10a3.5 3.5 0 0 0-5 0l-4 4a3.5 3.5 0 0 0 5 5l.5-.5"
-                ></path>
-                <path d="M16 21v-2"></path>
-                <path d="M19 16h2"></path>
-                <path d="M3 8h2"></path>
-                <path d="M8 3v2"></path>
-              </g>
-            </svg>
-          </a>
+              </svg>
+            </a>
+            <a :href="project.projectLink" target="__blank">
+              <svg
+                class="
+                  mt-2
+                  h-6
+                  self-center
+                  text-black
+                  dark:text-white
+                  cursor-pointer
+                "
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M10 14a3.5 3.5 0 0 0 5 0l4-4a3.5 3.5 0 0 0-5-5l-.5.5"
+                  ></path>
+                  <path
+                    d="M14 10a3.5 3.5 0 0 0-5 0l-4 4a3.5 3.5 0 0 0 5 5l.5-.5"
+                  ></path>
+                  <path d="M16 21v-2"></path>
+                  <path d="M19 16h2"></path>
+                  <path d="M3 8h2"></path>
+                  <path d="M8 3v2"></path>
+                </g>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>

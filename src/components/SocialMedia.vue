@@ -23,7 +23,6 @@
   <!-- Followers tab -->
   <div class="pl-2 pb-2 border-custom-gray">
     <ul class="flex">
-    
       <a href="https://github.com/Shao-FrontDev" target="_blank">
         <li class="text-center cursor-pointer">
           <span class="text-center">
